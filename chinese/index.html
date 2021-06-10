@@ -9,6 +9,85 @@
         <meta name="description" content="LearnaLang - free, no-download, no-sign up, chinese lessons for begginers">
         <meta name="author" content="Henry Heivly">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #ready {
+                background-color: red;
+                border: none;
+                box-shadow: 3px 3px 3px rgb(232, 142, 142);
+                border-radius: 5px;
+                font-size: 30px;
+            }
+            /*rgb(230, 227, 143);*/
+            #ready:hover {
+                background-color: pink;
+                box-shadow: 3px 3px 3px yellow; 
+            }
+            body {
+                background-color: rgb(115, 240, 186);
+                text-align: center;
+            }
+            body, button {
+                font-family: "Handlee";
+            }
+            .goodbye {
+                width: 5px;
+                height: 5px;
+                background-color: red;
+                position: absolute;
+                border-radius: 3px;
+                top: 125px;
+            }
+            
+            .hide {
+                display: none;
+            }
+            .display:hover + .hide{
+                display: inline;
+            }
+            #holder {
+                display: none;
+                font-family: sans-serif;
+            }
+            .box-left {
+                margin-right: 3px;
+                float: left;
+                width: 45%;
+                height: 130px;
+                background-color: grey;
+                box-shadow: 6px 6px 6px rgb(214, 206, 214);
+                text-align: center;
+                margin-left: 10px;
+                margin-bottom: 8px;
+            }
+            .box-right {
+                margin-left: 3px;
+                float: right;
+                width: 45%;
+                height: 130px;
+                background-color: grey;
+                box-shadow: 6px 6px 6px rgb(214, 206, 214);
+                text-align: center;
+                margin-right: 10px;
+                margin-bottom: 8px;
+            }
+            .box-left, .box-right {
+                user-select: none;
+            }
+            #page-break {
+                height: 270px;
+            }
+            #2big1 {
+                font-size: 50px !important;
+            }
+            #Directions {
+                display: none;
+            }
+            ::selection {
+                background-color: orange;
+                color: pink;
+                text-shadow: 3px 3px  3px grey;
+            }
+        </style>
     </head>
     <body>
     <h2>Are you ready to learn some Mandarin Chinese?</h2>
