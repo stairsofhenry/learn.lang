@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn [language]</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <meta name="keywords" content="Learn Chinese, LearnLang, learnlang, learnalang, Hwnry Heivly, Language learning, learnlang chinese, chinese, mandarin">
+        <meta name="description" content="LearnaLang - free, no-download, no-sign up, chinese lessons for begginers">
+        <meta name="author" content="Henry Heivly">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h2>Are you ready to learn some Mandarin Chinese?</h2>
+    <button id="ready">Click Here if you are!</button>
+    <p style="font-size: 30px;" id="Directions">DIRECTIONS: Hover over the phrases to see what they are in [language]!</p>
+    <script>
+        var readyEl = document.getElementById("ready");
+        var start = function(e) {
+            readyEl.textContent = "OK! Let's Get started!";
+            var holder = document.getElementById("holder");
+            holder.style.display = "block";
+            var directions = document.getElementById("Directions");
+            directions.style.display = "inline-block"
+        };
+        readyEl.addEventListener("click", start);
+ 
+    </script>
+    
+   
+    <br>
+    <br>
+    <div id="holder">
+        <h1>How to say...</h1>
+        <div class="box-left">
+            <span class="display" style="font-size: 60px;">Hello <br></span>
+        <span class="hide" style="font-size: 50px;">nǐ hǎo</span>
+        </div>
+        <div class="box-right">
+            <span class="display" style="font-size: 60px;">Goodbye<br></span>
+        <span class="hide" style="font-size: 50px;">zài jiàn</span>
+        </div><br>
+        <div class="box-left">
+            <span class="display" style="font-size: 42px">How are you?<br></span>
+        <span class="hide" style="font-size: 35px;">nǐ hǎo ma</span>
+        </div>
+        <div class="box-right">
+            <span class="display" style="font-size: 60px;">I'm Good<br></span>
+        <span class="hide" style="font-size: 40px;">wǒ hěn hǎo</span>
+        </div>
+        <div class="box-left">
+            <span class="display" style="font-size: 42px">Yes<br></span>
+        <span class="hide" style="font-size: 35px;">shì</span>
+        </div>
+        <div class="box-right">
+            <span class="display" style="font-size: 60px;">No<br></span>
+        <span class="hide" style="font-size: 40px;">bù</span>
+        </div>
+        <div class="box-left">
+            <span class="display" style="font-size: 42px">Thank you<br></span>
+        <span class="hide" style="font-size: 35px;">xiè xiè</span>
+        </div>
+        <div class="box-right">
+            <span class="display" style="font-size: 60px;">You're Welcome<br></span>
+        <span class="hide" style="font-size: 40px;">bié kè qi</span>
+        </div>
+      
+    </div>
+    <div id="page-break"></div>
+    <p style="font-size: 23px">
+        Thank you for checking out this language learning webpage!
+    </p>
+        
+
+    </body>
+    
+     <!--<p>We'll start in <span id="counter">0</span></p>
+    <script>
+    
+        var countEl = document.getElementById("counter");
+        var countUp = function(e) {
+            var counter = parseFloat(countEl.textContent);
+            countEl.textContent = counter + 1;
+        };
+        var x = window.setInterval(countUp, 500);
+        
+        
+    </script>-->
+</html>
