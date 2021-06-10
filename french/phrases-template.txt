@@ -1,16 +1,16 @@
 Hello 
-Privet
+Bonjour
 Goodbye
-Do svidaniya
+Au revoir
 How are you?
-kak pozhivayesh'?
+Comment vas-tu?
 I'm Good
-ya v poryadke
+je vais bien
 Yes
-da
+Oui
 No
-nyet
+non
 Thank you
-Spasibo
+Merci
 You're Welcome
-Pozhaluysta
+De rien
