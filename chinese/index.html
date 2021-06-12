@@ -157,8 +157,9 @@
     
     <p>You have spent <span id="counter">0</span> seconds learning Mandarin this visit</p>
     <script>
-    
+        
         var countEl = document.getElementById("counter");
+        countEl.style.fontFamily = "monospace";
         var countUp = function(e) {
             var counter = parseFloat(countEl.textContent);
             countEl.textContent = counter + 1;
