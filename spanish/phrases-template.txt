@@ -1,0 +1,16 @@
+Hello 
+Hola
+Goodbye
+Adiós
+How are you?
+Cómo estás
+I'm Good
+Soy bueno(masculine) Soy buena(femenine)
+Yes
+sí
+No
+no
+Thank you
+Gracias
+You're Welcome
+eres bienvenido
