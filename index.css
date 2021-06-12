@@ -3,9 +3,6 @@ body {
                 text-align: center;
                 font-family: "Handlee";
             }
-           h1 {
-                font-size: 100px
-            }
             #ready {
                 background-color: red;
                 border: none;
