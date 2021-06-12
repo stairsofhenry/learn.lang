@@ -1,0 +1,25 @@
+body {
+                background-color: rgb(115, 240, 186);
+                text-align: center;
+                font-family: "Handlee";
+            }
+           h1 {
+                font-size: 100px
+            }
+            #ready {
+                background-color: red;
+                border: none;
+                box-shadow: 3px 3px 3px rgb(232, 142, 142);
+                border-radius: 5px;
+                font-size: 55px;
+                height: 60px;
+            }
+            /*rgb(230, 227, 143);*/
+            #ready:hover {
+                background-color: pink;
+                box-shadow: 3px 3px 3px yellow;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
