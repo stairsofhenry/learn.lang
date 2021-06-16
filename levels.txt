@@ -2,4 +2,21 @@ Level 2:
 You
 Me
 I
-He/she
+[He/she]/he and she
+Your (s)
+mine
+Level 3:
+Red
+Yellow
+Blue
+Black
+White
+1, 2, 3, 4, 5
+Level 4:
+Orange
+Green
+Purple
+Pink
+Grey
+Brown
+6, 7, 8, 9, 10
