@@ -9,14 +9,17 @@ Level 3:
 Red
 Yellow
 Blue
-Black
 White
-1, 2, 3, 4, 5
 Level 4:
+Black
+1, 2, 3, 4, 5
+Level 5:
 Orange
 Green
 Purple
 Pink
 Grey
 Brown
+Level 6:
 6, 7, 8, 9, 10
+number(s)
